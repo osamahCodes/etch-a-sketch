@@ -5,29 +5,41 @@
 
 body{
     margin: 0px;
+    background-color: #FFE8DF;
 }
 
 button{
-    background-color: black;
+    background-color: #17706e;
     color: white;
     width: 100px;
-    height: 30px;
+    height: 40px;
     border-radius: 6px;
-    border-color: black;
+    border-color: #f0f0f0;
     border-style: solid;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .header{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 70px;
+    font-size: 60px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    color: #17706e;
 }
 .container{
     display: flex;
     justify-content: center;
     gap: 32px;
+}
+
+.options{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 18px;
 }
 
 .canvas{
@@ -43,4 +55,9 @@ button{
 
 .dots{
     background-color: white;
+}
+
+.current{
+    color: #17706e;
+    font-size: 32px;
 }

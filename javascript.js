@@ -3,9 +3,9 @@ let options = document.querySelector('.options');
 let current = document.querySelector('.current');
 let randomizer = document.querySelector('.randomizer');
 let isBrushBlack = true;
-for (let i = 0; i < 64*64; i++) {
+for (let i = 0; i < 16*16; i++) {
     const div = document.createElement('div');
-    div.style.cssText = 'border-color: white; border-width: 1px; border-style: solid; height: 6.25px; width: 6.25px;';
+    div.style.cssText = 'border-color: white; border-width: 1px; border-style: solid; height: 25px; width: 25px;';
     div.classList.add('dots');
     canvas.appendChild(div);
     
